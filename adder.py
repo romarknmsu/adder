@@ -7,7 +7,7 @@ def adder(a: int, b: int) -> int:
 def main(args):
     print(adder(args[1], args[2]))
 
-class TestAdder(unittest.TestCase):
+class asdfTestAdder(unittest.TestCase):
     def test_adder_success(self):
         self.assertEqual(adder(3, 5), 8)
 
