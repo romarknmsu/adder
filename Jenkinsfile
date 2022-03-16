@@ -10,12 +10,12 @@ pipeline {
     stages {
         stage('Hello GitHub') {
             steps {
-                echo "Hello GitHub!"
+                echo "Hello GitHub Fail!"
             }
         }
         stage('Compile') {
             steps {
-                sh 'python3 -m compileall adder.py'
+                sh 'python3 -m asdfcompileall adder.py'
             }
         }
         stage('Run') {
